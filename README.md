@@ -2,10 +2,11 @@
 
 This is a sample server Petstore server. For this sample, you can use the api key &#x60;special-key&#x60; to test the authorization filters.
 
-### Building
+## Building
 
 To install the required dependencies and to build the elixir project, run:
-```
+
+```bash
 mix local.hex --force
 mix do deps.get, compile
 ```
@@ -25,7 +26,7 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/open_api_petstore](https://hexdocs.pm/open_api_petstore).
 
-# How to generate Elixir code
+## How to generate Elixir code
 
 ``` bash
 # install the OpenAPI CLI generator
@@ -48,7 +49,7 @@ mix compile
 iex -S mix
 ```
 
-# How to run
+## How to run
 
 ``` elixir
 alias OpenAPIPetstore.Connection
